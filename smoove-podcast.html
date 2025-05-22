@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Smoove Podcast </title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero .btn {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        #episodes, #about, #contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 20px;
+        }
+
+        audio {
+            margin-top: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #ff6600;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Smoove Podcast </h1>
+        <p>Bringing You That Smoove Motivation</p>
+        <a href="#episodes" class="btn">Listen to Episodes</a>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodes">
+        <h2>Podcast Episodes</h2>
+        <ul>
+            <li>
+                <h3>Episode 1: [Title]</h3>
+                <p>Summary of episode 1.</p>
+                <audio controls>
+                    <source src="path_to_episode1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li>
+                <h3>Episode 2: [Title]</h3>
+                <p>Summary of episode 2.</p>
+                <audio controls>
+                    <source src="path_to_episode2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <!-- Add more episodes as needed -->
+        </ul>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>What does it mean to be Smoove</h2>
+        <p>Being Authenticly </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 [Smoove Podcast]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
