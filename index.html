@@ -119,7 +119,78 @@
             padding: 20px;
             position: relative;
             bottom: 0;
-            width: 10
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Smoove Podcast </h1>
+        <p>Bringing You That Smoove Motivation</p>
+        <a href="#episodes" class="btn">Listen to Episodes</a>
+    </section>
+
+    <section id="episodes">
+        <h2>Podcast Episodes</h2>
+        <ul>
+            <li>
+                <h3>Episode 1: The Inside Outside theory</h3>
+                <p>We talk about the daily habits that boost creativity and productivity.</p>
+                <audio controls>
+                    <source src="First-podcast.mp3.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+                <br><br>
+                <video width="640" height="360" controls>
+                    <source src="First Episode.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </li>   
+            <li>
+                <h3>Episode 2: [Title]</h3>
+                <p>Summary of episode 2.</p>
+                <audio controls>
+                    <source src="path_to_episode2.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What does it mean to be Smoove</h2>
+        <p>Being Authenticly </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 [Smoove Podcast]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
 
 
 
